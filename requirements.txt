@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+xgboost
+# scikit-surprise requires Python <= 3.12 due to a Cython/NumPy 2.x incompatibility.
+# Install manually on supported Python: pip install scikit-surprise
+scikit-surprise
+networkx
+tqdm
+jupyter

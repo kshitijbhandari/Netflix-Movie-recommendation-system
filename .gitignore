@@ -1,0 +1,41 @@
+# Dataset files (download from Kaggle - too large for git)
+combined_data_*.txt
+movie_titles.csv
+ratings.csv
+*.csv
+*.txt
+!requirements.txt
+
+# Sample/intermediate data directories
+sample/
+data/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Generated documents (too large for git)
+*.docx
+
+# Images (referenced in notebook but not needed in repo)
+images/
